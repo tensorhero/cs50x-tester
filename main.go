@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/tensorhero/llm100x-tester/internal/stages"
+	"github.com/tensorhero/cs50x-tester/internal/stages"
 	tester_utils "github.com/tensorhero/tester-utils"
 )
 

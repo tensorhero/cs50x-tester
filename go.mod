@@ -1,4 +1,4 @@
-module github.com/tensorhero/llm100x-tester
+module github.com/tensorhero/cs50x-tester
 
 go 1.24
 

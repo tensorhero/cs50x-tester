@@ -2,7 +2,7 @@
 
 # Build tester
 build:
-	go build -o llm100x-tester .
+	go build -o cs50x-tester .
 
 # Install to $GOPATH/bin (global access)
 install:
@@ -10,7 +10,7 @@ install:
 
 # Uninstall
 uninstall:
-	rm -f $(shell go env GOPATH)/bin/llm100x-tester
+	rm -f $(shell go env GOPATH)/bin/cs50x-tester
 
 # Run tests
 test:
@@ -18,7 +18,7 @@ test:
 
 # Clean build artifacts
 clean:
-	rm -f llm100x-tester
+	rm -f cs50x-tester
 	go clean
 
 # Run tester (requires working directory)
